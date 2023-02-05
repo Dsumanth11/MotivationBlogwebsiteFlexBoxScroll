@@ -1,0 +1,51 @@
+body{
+    margin:0px;
+}
+.page-container
+{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+.page-navbar
+{
+    background-color: black;
+    font-size:20px;
+    height:30px;
+    color:white;
+    padding:10px;
+    padding-left:15px;
+}
+.content1
+{
+    overflow-y: scroll;
+    background-color: lightblue;
+    flex-grow: 1;
+}
+p{
+    padding:15px;
+}
+.footer
+{
+    background-color: black;
+    font-size:20px;
+    height:30px;
+    color:white;
+    padding:10px;
+    padding-left:15px;
+}
+.middle-content
+{
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    flex-grow: 1;
+}
+.sidebarcontent
+{
+    width:120px;
+    padding:20px;
+    font-weight: bold;
+    color:red;  
+    font-size:25px;
+}
